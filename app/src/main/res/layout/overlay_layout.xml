@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Define your overlay layout here -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:textColor="#FF0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warning Alert !! "
+        android:textStyle="bold"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can't use abcde in this phone."
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/olButton"
+        android:layout_margin="15dp"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+</LinearLayout>
